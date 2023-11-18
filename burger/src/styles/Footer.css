@@ -1,15 +1,16 @@
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: rgb(82, 37, 37);
+  background-color: rgba(70, 64, 64, 0.8); /* 0.8 alfa değeri, yarı saydam */
   color: #fff;
-  padding: 20px;
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 100px;
+  gap: 10px;
   text-align: center;
-  gap: 20px;
 }
+
 .social {
   display: flex;
   justify-content: center;
