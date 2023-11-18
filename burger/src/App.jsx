@@ -5,18 +5,19 @@ import Menu from "./components/Menu.jsx";
 import About from "./components/About.jsx";
 import Contact from "./components/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
+import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
     <>
       <Navbar />
-
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/menu" exact element={<Menu />} />
         <Route path="/about" exact element={<About />} />
         <Route path="contact" exact element={<Contact />} />
       </Routes>
+      <Footer />
     </>
   );
 }
