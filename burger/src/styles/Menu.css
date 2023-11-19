@@ -5,9 +5,12 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 130px;
 }
 .menu .menuTitle {
-  font-size: 60px;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: rgb(51, 54, 56);
 }
 
 .menuList {
