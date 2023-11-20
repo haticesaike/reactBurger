@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import banner from "../assets/banneryeni.jpg";
+import banner from "../assets/burgerbanner.jpg";
 
 const About = () => {
   return (
